@@ -8,53 +8,64 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="card text-center">
-            <h1>Alex DUVAL</h1>
-            <img src="images/avatar.jpg" alt="Alex DUVAL Avatar" class="img-circle img-web">
-            <h2>Dev Padawan</h2>
-            <p>“Always pass on what you have learned”</p>
+    <div id="sidebar">
+        <div class="menu-sidebar">
+            <ul class="list-inline text-center">
+                <li><a href="#bio">Bio & Social</a></li>
+                <li><a href="#movie">Best Movie</a></li>
+                <li><a href="#web-lang">Web Languages</a></li>
+            </ul>
         </div>
-        <div class="card text-center">
-            <div class="text-center">
-            <ul class="list-inline social">
+        <div class="text-center">
+            <ul class="social list-inline">
                 <li class="text-center"><a href="https://fr-fr.facebook.com/alexduval71" target="_blank"><i class="fa fa-facebook-square"></i></li></a>
                 <li class="text-center"><a href="https://twitter.com/xlanex6" target="_blank"><i class="fa fa-twitter-square"></i></li></a>
                 <li class="text-center"><a href="https://github.com/xlanex6" target="_blank"><i class="fa fa-github-square"></i></li></a>
             </ul>
+        </div>
+    </div>
+    <div id="main-content">
+        <div class="container">
+            <div class="card text-center">
+                <h1>Alex DUVAL</h1>
+                <img src="images/avatar.jpg" alt="Alex DUVAL Avatar" class="img-circle img-web">
+                <h2>Dev Padawan</h2>
+                <p>“Always pass on what you have learned”</p>
             </div>
-            <h3 class="bio">Bio</h3>
-            <p>Mais, vous savez, moi je ne crois pas qu'il y ait de bonne ou de mauvaise situation. Moi, si je devais résumer ma vie aujourd'hui avec vous, je dirais que c'est d'abord des rencontres, des gens qui m'ont tendu la main, peut-être à un moment où je ne pouvais pas, où j'étais seul chez moi. Et c'est assez curieux de se dire que les hasards, les rencontres forgent une destinée... Parce que quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste, parfois on ne trouve pas l'interlocuteur en face, je dirais, le miroir qui vous aide à avancer. Alors ce n'est pas mon cas, comme je le disais là, puisque moi au contraire, j'ai pu ; et je dis merci à la vie, je lui dis merci, je chante la vie, je danse la vie... Je ne suis qu'amour ! Et finalement, quand beaucoup de gens aujourd'hui me disent "Mais comment fais-tu pour avoir cette humanité ?", eh ben je leur réponds très simplement, je leur dis que c'est ce goût de l'amour, ce goût donc qui m'a poussé aujourd'hui à entreprendre une construction mécanique, mais demain, qui sait, peut-être seulement à me mettre au service de la communauté, à faire le don, le don de soi...</p>
-        </div>
-        <div class="card-film text-center">
-            <h3>Best Film</h3>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td><img src="images/inception.jpg" alt="Inception"></td>
-                            <td>
-                                <h3>Inception</h3>
-                                <p>For me, it's the best film ever, so far.</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-        </div>
-        <div class="card text-center">
-            <h3>Favorites Web Languages</h3>
-                <p>...soon</p>
-                <ul class="list-inline lang-web">
-                    <li><img src="images/ruby.png" alt="Ruby" class="img-web"></li>
-                    <li><img src="images/html5.png" alt="HTML" class="img-web"></li>
-                    <li><img src="images/js.png" alt="JavaScript"class="img-web"></li>
-                    <li><img src="images/postgresql.png" alt="PostgreSQL" class="img-web"></li>
-                    <li><img src="images/rails.png" alt="Rails" class="img-web"></li>
-                </ul>
-        </div>
-        <div class="card text-center footer">
-            <p>Webpage done during the Dev Bootcamp <a href="https://www.lewagon.com/fr">LE WAGON ®</a></p>
-        </div>
+            <div id="bio"class="card text-center">
+                <h3 class="bio">Bio</h3>
+                <p>Mais, vous savez, moi je ne crois pas qu'il y ait de bonne ou de mauvaise situation. Moi, si je devais résumer ma vie aujourd'hui avec vous, je dirais que c'est d'abord des rencontres, des gens qui m'ont tendu la main, peut-être à un moment où je ne pouvais pas, où j'étais seul chez moi. Et c'est assez curieux de se dire que les hasards, les rencontres forgent une destinée... Parce que quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste, parfois on ne trouve pas l'interlocuteur en face, je dirais, le miroir qui vous aide à avancer. Alors ce n'est pas mon cas, comme je le disais là, puisque moi au contraire, j'ai pu ; et je dis merci à la vie, je lui dis merci, je chante la vie, je danse la vie... Je ne suis qu'amour ! Et finalement, quand beaucoup de gens aujourd'hui me disent "Mais comment fais-tu pour avoir cette humanité ?", eh ben je leur réponds très simplement, je leur dis que c'est ce goût de l'amour, ce goût donc qui m'a poussé aujourd'hui à entreprendre une construction mécanique, mais demain, qui sait, peut-être seulement à me mettre au service de la communauté, à faire le don, le don de soi...</p>
+            </div>
+            <div id="movie" class="card-film text-center">
+                <h3>Best Film</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><img src="images/inception.jpg" alt="Inception"></td>
+                                <td>
+                                    <h3>Inception</h3>
+                                    <p>For me, it's the best film ever, so far.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+            <div id="web-lang"class="card text-center">
+                <h3>Favorites Web Languages</h3>
+                    <p>...soon</p>
+                    <ul class="list-inline lang-web">
+                        <li><img src="images/ruby.png" alt="Ruby" class="img-web"></li>
+                        <li><img src="images/html5.png" alt="HTML" class="img-web"></li>
+                        <li><img src="images/js.png" alt="JavaScript"class="img-web"></li>
+                        <li><img src="images/postgresql.png" alt="PostgreSQL" class="img-web"></li>
+                        <li><img src="images/rails.png" alt="Rails" class="img-web"></li>
+                    </ul>
+            </div>
+            <div class="card text-center footer">
+                <p>Webpage done during the Dev Bootcamp <a href="https://www.lewagon.com/fr">LE WAGON ®</a></p>
+            </div>
 
+        </div>
     </div>
 </body>
 

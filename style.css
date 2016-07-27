@@ -3,11 +3,31 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(211, 84, 0,1.0);
+  line-height: 50px;
+
+}
+
+#main-content{
+  margin-left: 250px;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
   font-size: 23px;
   line-height: 26px;
   color: #2c3e50;
+}
+
+h2 {
+  font-weight: 700;
+  color: rgba(211, 84, 0,1.0)
 }
 
 p {
@@ -22,7 +42,7 @@ a {
 }
 
 a:hover {
-  color: rgba(52, 73, 94,0.5)
+  color: rgba(211, 84, 0,1.0);
 }
 
 .container {
@@ -83,10 +103,6 @@ padding-left: 30px;
 padding-right: 30px;
 }
 
-.social li {
-  font-size: 50px;
-}
-
 .lang-web li {
   padding: 30px;
 }
@@ -101,4 +117,27 @@ padding-right: 30px;
 
 .bio p {
   padding: 40px;
+}
+
+.menu-sidebar {
+  margin-top: 200px;
+}
+
+#sidebar a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#sidebar a:hover {
+  color: #fff;
+}
+
+.social .fa {
+  font-size: 50px;
+}
+
+#sidebar .social li {
+  padding-left: 10px;
+  padding-right: 10px
 }
