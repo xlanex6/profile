@@ -9,10 +9,34 @@ body {
   width: 250px;
   left: 0;
   top: 0;
-  bottom: 50;
+  bottom: 300;
   background-color: rgba(44, 62, 80,1.0);
   line-height: 50px;
   border-bottom-right-radius: 20px;
+
+}
+
+#hire{
+  position: fixed;
+  width: 250px;
+  left: 0;
+  top: 520px;
+  bottom: 163px;
+  background-color: rgba(44, 62, 80,1.0);
+  line-height: 50px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color #fff;
+  padding-top: 18px;
+
+}
+
+#hire a {
+  color: rgba(236, 240, 241,1.0);
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  text-align : center;
 
 }
 
